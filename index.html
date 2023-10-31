@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <img src="IMG-20231031-WA0014.jpg" alt="Your Profile Picture" class="profile-picture">
+            <h1>thiruvengadam B</h1>
+            <p>Passionte on Teaching</p>
+        </div>
+    </header>
+    <nav>
+        <ul class="center">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#project">Project</a>
+            </li>
+            <li>
+                <a href="#resume">Resume</a>
+            </li>
+        </ul>
+    </nav>
+    <section id="about">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p>Hello Everyone! This is thiruvengadam B and i am a BCA Studet.
+            </p>
+        </div>
+    </section>
+    <section id="education">
+        <div class="section-content">
+            <h2>BCA</h2>
+            <p>Kumbakonam Mass atrs& science
+            </p>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="section-content">
+            <h2>Skills</h2>
+            <ul>
+                <li>
+                    python
+                </li>
+                <li>
+                    Artificial Intelligence
+                </li>
+                <li>
+                    Machine learning
+                </li>
+                <li>
+                    Deep learning
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="project">
+        <div class="section-content">
+            <h2>Project</h2>
+            <ul>
+                <li>
+
+                    <a class="link" href="#">Project 1</a>
+                </li>
+                <li>
+
+                    <a class="link" href="#">Project 2</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="resume">
+        <center>
+            <div class="section-content" <h2>Resume</h2>
+                <a href="https://drive.google.com/file/d/1HcXfM39GJmyo9ALMyf9wMcUQnJRp4vjf/view?usp=drive_link" class="download-button">Download CV</a>
+            </div>
+        </center>
+    </section>
+    <footer>
+        <p> @2023 thiruvengadam B</p>
+    </footer>
+    <script>
+        // Smooth scrolling to section when clicking on navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+    <div id="loom-companion-mv3" ext-id="liecbddmkiiihnedobmLmiLLhodjkdmb">
+        <section id="shadow-host-companion">
+
+            <div id="inner-shadow-companion" </div>
+        </section>
+        </div>
+    </div>
+
+</body>
+
+</html>
